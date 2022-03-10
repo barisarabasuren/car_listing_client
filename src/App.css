@@ -1,0 +1,33 @@
+.body_header_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_header {
+    padding: 0 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1300px;
+    transition: 0.5s;
+}
+
+.body_content {
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+.body_list {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 768px) {
+    .body_content {
+        padding: 20px 50px
+    }
+    .body_header {
+        padding: 0 50px;
+    }
+}

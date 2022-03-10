@@ -1,0 +1,16 @@
+.list_item_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.list_item_title p{
+    margin: 0;
+    font-size: 16px;
+    width: 100px
+}
+
+.list_item_info p{
+    margin: 0;
+    font-size: 14px;
+    color: grey;
+}
