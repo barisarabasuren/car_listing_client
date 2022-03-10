@@ -20,7 +20,6 @@ const AddCarForm = ({ handleCarChange, handleCancel }) => {
 
     const validateImg = async (img) => {
         if(img === undefined || img === '') {
-            console.log('asdasd')
             return true
         } else {
             try{

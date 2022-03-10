@@ -11,14 +11,19 @@ const CarDetailModal = ({ isModalVisible, handleIsModalVisible, car , carImage }
     }
 
     var carTitles = ['make', 'model', 'price', 'year', 'reviewed', 'email', 'description']
-
+    console.log()
     const produceData = () => {
         var data = []
         for(let i = 0; i < carTitles.length; i++) {
             if(carTitles[i] !== 'img') {
                 if(carTitles[i] === 'price') {
                     data.push([carTitles[i], car[carTitles[i]], '€'])
-                } else {
+                } 
+                else if(carTitles[i] === 'year') {
+                    const year = new Date(car[carTitles[i]]).getFullYear() 
+                    data.push([carTitles[i], year])
+                }
+                else {
                     data.push([carTitles[i], car[carTitles[i]]])    
                 }
             }
