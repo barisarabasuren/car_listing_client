@@ -2,7 +2,7 @@
 
 This repository contains two components:
 * the **client**, which provides a client for car listing ([Deployed on Netlify](https://car-listing-umut.netlify.app/))
-* the **server**, which provides the API to manage car listing([Deployed on Heroku](https://guarded-caverns-65239.herokuapp.com/))
+* the **server**, which provides the API to manage car listing([Repo](https://github.com/barisarabasuren/car_listing_server))([Deployed on Heroku](https://guarded-caverns-65239.herokuapp.com/))
 * the **database**, MongoDB that connects local cLuster in development environment and connects MongoDB Atlas on deployed API
 
 ### High-Level Overview
